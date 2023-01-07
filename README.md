@@ -1,7 +1,13 @@
 # Aditya Vikram Choudhary
-Hello! Welcome to my personal webpage.
 
-<img alt="My Photo" height="200" src="MyPhoto.jpg" title="My Photo"/>
+My [personal webpage](https://adi-vc.github.io/) hosted on
+GitHub Pages created using [Jekyll](https://jekyllrb.com).
 
-I'm a master's student in the [CSA department](https://csa.iisc.ac.in)
-at [IISc, Bengaluru](https://iisc.ac.in).
+
+## Deployment
+
+To deploy it locally, navigate to the root directory of the repo and run:
+```sh
+bundle install              # to install the dependencies
+bundle exec jekyll serve    # to start the Jekyll server
+```
