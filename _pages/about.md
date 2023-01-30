@@ -13,4 +13,6 @@ fresh grad out of college. I did my B. Tech from IIEST, Shibpur in 2021.
 I'm keenly interested in the topics of machine learning, data science, and data structures
 & algorithms.
 
+For more details, have a look at my [resume](../CV.pdf).
+
 I would love to, in general, connect with other like-minded people too. You can find my contact details below.
