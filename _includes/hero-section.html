@@ -2,9 +2,13 @@
 <section class="hero-area bg-primary" id="parallax">
   <div class="container">
     <div class="row">
-      <div class="col-lg-11 mx-auto">
+      <div class="col-9 mx-auto">
         <h1 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h1>
         <h1 class="text-white font-tertiary" style="font-size: xx-large;">{{ site.data.settings.hero.hero-subtitle }}</h1>
+      </div>
+
+      <div class="col-3" style="align-items: center;display: flex;">
+        <img src="{{ site.baseurl }}/{{ site.data.settings.image }}" alt="{{ site.data.settings.author }}" class="img-fluid rounded-lg border-thick border-white" style="max-width: 150px;z-index: 2;width: inherit;">
       </div>
     </div>
   </div>
