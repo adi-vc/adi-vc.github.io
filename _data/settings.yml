@@ -3,19 +3,21 @@
 # General Site Settings
 
 title: Aditya Vikram Choudhary
+alt_title: AVC
 logo: /assets/images/logo.jpg
 author: Aditya Vikram Choudhary
-description: Personal Webpage of Aditya Vikram Choudhary (adi-vc | adi_vc)
-# email: aditya@example.com
+description: Personal Webpage of Aditya Vikram Choudhary (adi-vc | adi_vc | AVC)
+image: assets/images/about/author.jpg
+email: adi.vc111@gmail.com
 # phone: +91 9090909090
-# address: India
+address: Bengaluru, India
 # copyright:
 
 menu:
   - { name: About, link: "/about" }
   # - { name: Blog, link: "/blog" }
   # - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
+  # - { name: Contact, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section
@@ -40,15 +42,17 @@ hero:
   hero-subtitle: CS student @ IISc Bangalore
 
 social:
-  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/adi-vc" }
-  - { icon: "ti-github", link: "https://github.com/adi-vc" }
-  - { icon: "ti-twitter", link: "https://www.twitter.com/adi_vc" }
+  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/adi-vc", desc: "LinkedIn: adi-vc" }
+  - { icon: "ti-github", link: "https://github.com/adi-vc", desc: "GitHub: adi-vc" }
+  - { icon: "ti-rss", link: "https://medium.com/@adi-vc", desc: "Medium: adi-vc" }
+  - { icon: "ti-world", link: "https://www.csa.iisc.ac.in/people/aditya-vikram-choudhary/", desc: "IISc CSA webpage" }
+  - { icon: "ti-twitter", link: "https://www.twitter.com/adi_vc", desc: "Twitter: adi_vc" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: Welcome to my personal webpage.<br> I’m a master’s student in the <a href="https://csa.iisc.ac.in">CSA department</a> at <a href="https://iisc.ac.in">IISc, Bangalore</a>.
+blurb: I'm Aditya Vikram Choudhary. Welcome to my personal webpage.<br>I’m a master’s student in the <a href="https://csa.iisc.ac.in">CSA department</a> at <a href="https://iisc.ac.in">IISc, Bangalore</a>.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more

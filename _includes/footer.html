@@ -2,25 +2,37 @@
 <footer class="bg-dark footer-section">
   <div class="section">
     <div class="container">
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-md-4">
           <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
-        </div>
-        <div class="col-md-4">
+          <p class="text-white paragraph-lg font-secondary">
+            <a href="mailto: {{ site.data.settings.email }}">{{ site.data.settings.email }}</a>
+          </p>
+
           <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
+          <p class="text-white paragraph-lg font-secondary">
+            <a href="https://www.google.com/maps/place/{{ site.data.settings.address }}">{{ site.data.settings.address }}</a>
+          </p>
         </div>
-      </div> -->
+        <div class="col-md-4">
+          <!-- Filler -->
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Links</h5>
+          <!-- social icon -->
+          <ul class="list-unstyled mt-3 position-relative zindex-1">
+            {% for social in site.data.settings.social %}
+            <li class="mb-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i> {{ social.desc }}</a></li>
+            {% endfor %}
+          </ul>
+          <!-- /social icon -->
+        </div>
+      </div>
     </div>
   </div>
-  <div class="border-top text-center border-dark py-5">
+  <!-- <div class="border-top text-center border-dark py-5">
     <p class="mb-0 text-light">{{site.data.settings.copyright | markdownify}}</p>
-  </div>
+  </div> -->
 </footer>
 <!-- /footer -->
 
