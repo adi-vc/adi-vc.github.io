@@ -103,22 +103,22 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
-      icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      name: Researcher,
+      icon: "tcs_research_logo.png",
+      date: "2021-22",
+      organization: "TCS Research & Innovation",
     }
   - {
-      name: UX & UI Designer,
-      icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
+      name: Software Intern,
+      icon: "hennge_logo.png",
+      date: "July 2021",
+      organization: "HENNGE",
     }
   - {
-      name: Senior UI Designer,
-      icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      name: SDE Intern,
+      icon: "amazon_logo.png",
+      date: "July 2020 - Sep 2020",
+      organization: "AMAZON INC.",
     }
 
 #-------------------------------
@@ -127,25 +127,25 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: M. Tech in Computer Science,
+      date: "2022 - 2024 (Expected)",
+      organization: "Indian Institute of Science (IISc), Bengaluru",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: B. Tech in Computer Science,
+      date: "2017 - 2021",
+      organization: "Indian Institute of Engineering Science & Technology (IIEST), Shibpur",
     }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
-    }
+  # - {
+  #     name: Higher Secondary Certificat,
+  #     date: "2000",
+  #     organization: "Cardiff School",
+  #   }
+  # - {
+  #     name: Secondary School Certificate,
+  #     date: "1998",
+  #     organization: "Cardiff School",
+  #   }
 
 #-------------------------------
 # Services Section
