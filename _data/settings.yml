@@ -8,7 +8,7 @@ logo: /assets/images/logo.jpg
 author: Aditya Vikram Choudhary
 description: Personal Webpage of Aditya Vikram Choudhary (adi-vc | adi_vc | AVC)
 image: assets/images/about/author.jpg
-email: adi.vc111@gmail.com
+email: adi-vc@outlook.com
 # phone: +91 9090909090
 address: Bengaluru, India
 # copyright:
@@ -304,4 +304,3 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: aditya@example.com
