@@ -9,7 +9,7 @@ plugins:
 compress_html:
   clippings: all
   comments: all
-  startings: [html, head, body]
+  # startings: [html, head, body]
 
 # Pages Path
 defaults:
