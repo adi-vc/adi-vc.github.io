@@ -8,7 +8,7 @@ GitHub Pages created using [Jekyll](https://jekyllrb.com).
 
 To deploy it locally, navigate to the root directory of the repo and run:
 ```sh
-bundle install              # to install the dependencies
+bundle install --path=~     # to install the dependencies (with path param)
 bundle exec jekyll serve    # to start the Jekyll server
 ```
 
