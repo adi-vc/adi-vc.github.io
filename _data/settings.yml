@@ -16,7 +16,7 @@ address: Bengaluru, India
 menu:
   - { name: About, link: "/about" }
   # - { name: Blog, link: "/blog" }
-  # - { name: Portfolio, link: "/portfolio" }
+  - { name: Projects, link: "/projects" }
   # - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -172,79 +172,80 @@ services:
     }
 
 #-------------------------------
-# Portfolio (Section and Page)
+# Projects (Section and Page)
 
-# Portfolio Home Section
-portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
+# Projects Home Section
+projects-home-items:
+  - image: "assets/images/projects/item-1.png"
     url: "#"
 
-  - image: "assets/images/portfolio/item-2.png"
+  - image: "assets/images/projects/item-2.png"
     url: "#"
 
-  - image: "assets/images/portfolio/item-3.png"
+  - image: "assets/images/projects/item-3.png"
     url: "#"
 
-  - image: "assets/images/portfolio/item-4.png"
+  - image: "assets/images/projects/item-4.png"
     url: "#"
 
-  - image: "assets/images/portfolio/item-5.png"
+  - image: "assets/images/projects/item-5.png"
     url: "#"
 
-# Portfolio Page
-portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+# Projects Page
+projects-label:
+  - { title: "ML/DL/RL", type: "intelligent_sys" }
+  - { title: "Web Dev", type: "web" }
+  - { title: "App Dev", type: "app" }
+  - { title: "Systems", type: "system" }
 
-portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
+projects-items:
+  - image: "assets/images/projects/item-1.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "design"
       - type: "illustration"
 
-  - image: "assets/images/portfolio/item-2.png"
+  - image: "assets/images/projects/item-2.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "branding"
 
-  - image: "assets/images/portfolio/item-3.png"
+  - image: "assets/images/projects/item-3.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "illustration"
 
-  - image: "assets/images/portfolio/item-6.png"
+  - image: "assets/images/projects/item-6.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "design"
       - type: "branding"
 
-  - image: "assets/images/portfolio/item-8.png"
+  - image: "assets/images/projects/item-8.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "illustration"
 
-  - image: "assets/images/portfolio/item-5.png"
+  - image: "assets/images/projects/item-5.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "design"
 
-  - image: "assets/images/portfolio/item-1.png"
+  - image: "assets/images/projects/item-1.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "branding"
 
-  - image: "assets/images/portfolio/item-3.png"
+  - image: "assets/images/projects/item-3.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "design"
       - type: "illustration"
       - type: "branding"
 
-  - image: "assets/images/portfolio/item-7.png"
+  - image: "assets/images/projects/item-7.png"
     url: "#"
-    portfolio-type:
+    projects-type:
       - type: "illustration"
 
 #-------------------------------
