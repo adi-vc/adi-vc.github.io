@@ -176,27 +176,42 @@ services:
 
 # Projects Home Section
 projects-home-items:
-  - image: "assets/images/projects/item-1.png"
+  - image: "assets/images/projects/starcraft.jpg"
     url: "#"
+    description: "Develop efficient agents which can learn to play real-time war games like StarCraft-II using reinforcement learning"
+    projects-type:
+      - type: "int_sys"
+      - type: "python"
 
-  - image: "assets/images/projects/item-2.png"
+  - image: "assets/images/projects/epidemiology.png"
     url: "#"
+    description: "Used compartmental models of modelling epidemics to study the spread of COVID-19 in India"
+    projects-type:
+      - type: "int_sys"
 
-  - image: "assets/images/projects/item-3.png"
+  - image: "assets/images/projects/wordle-solver.jpg"
     url: "#"
+    description: "Solve the everyday wordle puzzle"
+    projects-type:
+      - type: "int_sys"
 
-  - image: "assets/images/projects/item-4.png"
+  - image: "assets/images/projects/event-management-web-app.jpg"
     url: "#"
+    description: "Full-stack web app to create and manage events going around in the university"
+    projects-type:
+      - type: "dev"
 
-  - image: "assets/images/projects/item-5.png"
+  - image: "assets/images/projects/disaster-mgmt-android-app.png"
     url: "#"
+    description: "Android app for rescue workers to aid needy people in situations of natural calamities"
+    projects-type:
+      - type: "dev"
 
 # Projects Page
 projects-label:
-  - { title: "ML/DL/RL", type: "intelligent_sys" }
-  - { title: "Web Dev", type: "web" }
-  - { title: "App Dev", type: "app" }
-  - { title: "Systems", type: "system" }
+  - { title: "ML/RL", type: "int_sys" }
+  - { title: "Web or App Dev", type: "dev" }
+  - { title: "Systems", type: "sys" }
 
 projects-items:
   - image: "assets/images/projects/item-1.png"

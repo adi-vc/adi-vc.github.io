@@ -11,7 +11,22 @@
       {% for item in site.data.settings.projects-home-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="projects-image" class="img-fluid rounded w-100 d-block">
+          <img src="{{ site.baseurl }}/{{ item.image }}" alt="projects-image" class="img-fluid rounded w-100 d-block"
+          style="position: relative;">
+          <h6 style="
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            text-align: justify;
+            ">
+            <span style="
+            color: white;
+            line-height: 1.5em;
+            background: rgba(0, 0, 0, 0.4);">
+            {{ item.description }}
+            </span>
+          </h6>
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
