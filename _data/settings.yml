@@ -213,55 +213,13 @@ projects-label:
   - { title: "Web or App Dev", type: "dev" }
   - { title: "Systems", type: "sys" }
 
-projects-items:
-  - image: "assets/images/projects/item-1.png"
-    url: "#"
-    projects-type:
-      - type: "design"
-      - type: "illustration"
-
-  - image: "assets/images/projects/item-2.png"
-    url: "#"
-    projects-type:
-      - type: "branding"
-
-  - image: "assets/images/projects/item-3.png"
-    url: "#"
-    projects-type:
-      - type: "illustration"
-
-  - image: "assets/images/projects/item-6.png"
-    url: "#"
-    projects-type:
-      - type: "design"
-      - type: "branding"
-
-  - image: "assets/images/projects/item-8.png"
-    url: "#"
-    projects-type:
-      - type: "illustration"
-
-  - image: "assets/images/projects/item-5.png"
-    url: "#"
-    projects-type:
-      - type: "design"
-
-  - image: "assets/images/projects/item-1.png"
-    url: "#"
-    projects-type:
-      - type: "branding"
-
-  - image: "assets/images/projects/item-3.png"
-    url: "#"
-    projects-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/projects/item-7.png"
-    url: "#"
-    projects-type:
-      - type: "illustration"
+projects-items: []
+# projects-items:
+#   - image: "assets/images/projects/item-1.png"
+#     url: "#"
+#     projects-type:
+#       - type: "design"
+#       - type: "illustration"
 
 #-------------------------------
 # Testimonials Section
