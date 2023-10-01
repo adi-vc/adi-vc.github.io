@@ -11,11 +11,16 @@ title: Projects
           <label class="btn btn-sm btn-primary active">
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
           </label>
-          {% for label in site.data.settings.projects-label %}
-          <label class="btn btn-sm btn-primary">
-            <input type="radio" name="shuffle-filter" value="{{ label.type }}" />{{ label.title }}
-          </label>
-          {% endfor %}
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</button>
+            <div class="dropdown-menu btn-group-toggle">
+              {% for label in site.data.settings.projects-label %}
+              <label class="btn btn-sm dropdown-item">
+                <input type="radio" name="shuffle-filter" value="{{ label.type }}" />{{ label.title }}
+              </label>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
     </div>
