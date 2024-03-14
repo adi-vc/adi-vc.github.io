@@ -182,6 +182,18 @@ projects-home-items:
     projects-type:
       - type: "int_sys"
       - type: "python"
+  
+  - image: "assets/images/projects/llm.jpg"
+    url: "#"
+    description: "Used LLMs such as BERT, BART & GPT on novel interesting tasks such as deciphering human-written dates and performing arithmetic operations"
+    projects-type:
+      - type: "int_sys"
+  
+  - image: "assets/images/projects/diffusion.jpg"
+    url: "#"
+    description: "Trained GANs and diffusion models to generate good quality real-world images of animals and compared their generation capabilities"
+    projects-type:
+      - type: "int_sys"
 
   - image: "assets/images/projects/epidemiology.png"
     url: "#"
@@ -189,6 +201,17 @@ projects-home-items:
     projects-type:
       - type: "int_sys"
 
+proj-btn-link: "/projects"
+proj-btn-name: explore more projects
+
+# Projects Page
+projects-label:
+  - { title: "ML/RL", type: "int_sys" }
+  - { title: "Web or App Dev", type: "dev" }
+  - { title: "Systems", type: "sys" }
+
+# projects-items: []
+projects-items:
   - image: "assets/images/projects/wordle-solver.jpg"
     url: "#"
     description: "Solve the everyday wordle puzzle"
@@ -206,20 +229,6 @@ projects-home-items:
     description: "Android app for rescue workers to aid needy people in situations of natural calamities"
     projects-type:
       - type: "dev"
-
-# Projects Page
-projects-label:
-  - { title: "ML/RL", type: "int_sys" }
-  - { title: "Web or App Dev", type: "dev" }
-  - { title: "Systems", type: "sys" }
-
-projects-items: []
-# projects-items:
-#   - image: "assets/images/projects/item-1.png"
-#     url: "#"
-#     projects-type:
-#       - type: "design"
-#       - type: "illustration"
 
 #-------------------------------
 # Testimonials Section
