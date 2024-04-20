@@ -130,11 +130,13 @@ education:
       name: M. Tech in Computer Science,
       date: "2022 - 2024 (Expected)",
       organization: "Indian Institute of Science (IISc), Bengaluru",
+      icon: "iisc_logo.jpg",
     }
   - {
       name: B. Tech in Computer Science,
       date: "2017 - 2021",
       organization: "Indian Institute of Engineering Science & Technology (IIEST), Shibpur",
+      icon: "iiests_logo.svg",
     }
   # - {
   #     name: Higher Secondary Certificat,
