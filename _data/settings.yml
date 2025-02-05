@@ -39,7 +39,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: Hi! I’m Aditya
-  hero-subtitle: CS student @ IISc Bangalore
+  hero-subtitle: Associate @ Capital One
 
 social:
   - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/adi-vc", desc: "LinkedIn: adi-vc" }
