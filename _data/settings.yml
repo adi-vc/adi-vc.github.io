@@ -52,7 +52,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: I'm Aditya Vikram Choudhary. Welcome to my personal webpage.<br>I’m a master’s student in the <a href="https://csa.iisc.ac.in">CSA department</a> at <a href="https://iisc.ac.in">IISc, Bangalore</a>.
+blurb: I'm Aditya Vikram Choudhary. Welcome to my personal webpage.<br>I'm an associate working at <a href="https://www.capitalone.com" target="_blank">Capital One</a>.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -103,6 +103,12 @@ skills:
 experience-title: Experience
 experience:
   - {
+      name: Associate,
+      icon: "capone_logo.svg",
+      date: "2024-Present",
+      organization: "Datalabs, Capital One India",
+    }
+  - {
       name: Researcher,
       icon: "tcs_research_logo.png",
       date: "2021-22",
@@ -128,7 +134,7 @@ education-title: Education
 education:
   - {
       name: M. Tech in Computer Science,
-      date: "2022 - 2024 (Expected)",
+      date: "2022 - 2024",
       organization: "Indian Institute of Science (IISc), Bengaluru",
       icon: "iisc_logo.jpg",
     }
